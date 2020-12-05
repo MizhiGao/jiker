@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;   
+    font-family: PingFangSC-Medium, PingFang SC;
+    color: #333333;
+    font-weight: 400;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    color:#333333;
+    font-size: 14px;
+    min-width: 1440px; 
+}
+.page-header{
+    height: 60px;
+    padding: 0 65px 0 107px;  
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.header-box{
+    display: flex;
+    flex-wrap: nowrap;
+    padding:  0 115px 0 73px;
+    justify-content: space-between;
+}
+.head-box-left{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.header-logo{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height:60px;
+    padding: 10px 0;
+   
+}
+.header-logo-text{
+    font-size: 20px;
+    color: #43AE35;
+    font-weight: 600;
+}
+.header-logo-url{
+    color: #43AE35;
+    transform: scale(0.6);
+    margin-top: -7px;
+}
+.header-nav{
+    text-align: center;
+    height: 29px;
+    line-height: 29px;
+    margin: 14px 0 17px ;
+}
+.nav-list-item{
+    float: left;
+    width:60px;
+    list-style-type: none;
+}
+.nav-list{
+   font-size: 15px;
+    text-decoration: none;
+    color:#333333;
+}
+.nav-list-box:first-child{
+    /* border-bottom: 3px solid #006EDA ; */
+    color:#006EDA;
+}
+.user-img{
+    width:34px;
+    height: 34px;
+    margin: 13px 0;
+}
+/* 主体结构 */
+.page-main{
+    text-align: center;
+    min-width:1268px;
+    height: 2363px;
+    padding: 0 65px 0 107px;  
+}
+.main-img-box{
+    height: 357px;
+    padding: 37px 116px 0 72px;
+}
+.main-img{
+    width:1080px;
+    height: 320px;
+}
+.title-box{
+display: flex;
+flex-direction: column;
+height: 93px;
+}
+.title{
+    margin: 29px 0 10px;
+    font-size: 20px;
+}
+.title-introduction{
+    margin:0 0 20px;
+}
+.combat-camp-box{
+    height: 332px;
+    display: grid;
+    grid-template-columns: repeat(2,532px);
+    grid-template-rows: repeat(2,150px);
+    grid-gap:16px 16px;
+    justify-content: center;
+    padding: 0 73px;
+}
+.combat-camp-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.048);
+    border-radius: 5px;
+    text-align: left;
+}
+.combat-camp-item{
+    padding:28px 0 25px 30px;
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20px 40px 12px;
+    row-gap: 12px;
+    justify-items: flex-start;
+    align-items: center;
+}
+.item-title{
+    font-size: 20px;
+}
+.title-introduction,.item-description,.iten-author-introduce{
+    color: #666666;
+}
+.author-box{
+    font-size: 12px;
+}
+.item-author{
+    color:#006EDA;
+}
+.author-img{
+    width: 104px;
+    height: 125px;
+    margin: 25px 49px 0;
+}
+/* 课程 */
+.course-box{
+  height:496px;  
+  padding: 0 113px 0 72px;
+  display:grid; 
+  grid-template-columns: repeat(4,258px);
+  grid-template-rows: repeat(2,240px);
+  justify-content: center;
+  text-align: left;
+  column-gap: 19px;
+  row-gap:16px;
+}
+.course{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:140px 71px 29px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+.course-img{
+    width: 258px;
+    height:140px;
+}
+.course-name{
+    padding:12px 16px 0 19px;
+    font-size: 15px;
+    line-height: 22px;
+
+}
+.course-info{
+    padding:0 14px 17px 16px;
+    font-size: 12px;
+}
+.course-level,.experiment-level,.experiment-time{
+    margin-right: 15px;
+}
+.course-time{
+    margin-right:71px;
+}
+.course-item-icon,.experiment-item-icon{
+    width: 12px;
+    height: 12px;
+}
+/* 项目 */
+.project-box{
+    height:256px;  
+    padding: 0 115px 0 73px;
+    display:grid; 
+    grid-template-columns: repeat(5,203px);
+    grid-template-rows: repeat(2,120px);
+    justify-content: center; 
+    column-gap: 16px;
+    row-gap:16px;   
+}
+.project{
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+}
+.project-title{
+    display: block;
+    height: 84px;
+    padding: 22px 0;
+    line-height: 22px;
+    font-size: 15px;
+}
+.project-slogan{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    background: #838CA1;
+    border-radius: 0px 0px 5px 5px;
+    font-size: 13px;
+}
+/* 实验 */
+.experiment-box{
+    height:436px;  
+    padding: 0 113px 0 72px;
+    display:grid; 
+    grid-template-columns: repeat(5,203px);
+    grid-template-rows: repeat(2,210px);
+    justify-content: center;
+    text-align: left;
+    column-gap: 16px;
+    row-gap:16px;
+}
+.experiment{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:110px 71px 29px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+.experiment-img{
+    width: 203px;
+    height:110px;
+}
+.experiment-name{
+    padding:12px 18px 0 16px;
+    font-size: 15px;
+    line-height: 22px;
+}
+.experiment-info{
+    padding:0 14px 17px 16px;
+    font-size: 12px;
+}
+.page-footer{
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #333744;   
+    display: inline-block;
+    min-width: 1440px;
+    height: 40px;
+    line-height: 40px; 
+    text-align: center;
+  }
+  .footer-info{
+    font-size: 12px;
+    color: #FFFFFF;
+  }

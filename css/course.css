@@ -1,0 +1,249 @@
+.nav-list-box .nav-list-item:nth-child(1)>.nav-list{
+    color: #333333;
+}
+.nav-list-box li:nth-child(3)>.nav-list{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    color:#35B558; 
+}
+.underline{
+    display:block;
+    width:28px;
+    height: 1px;
+    border:1px solid #35B558 ;
+    border-radius: 3px;
+    background-color: #35B558;
+}
+.page-main{
+    text-align: center; 
+    height:1341px ;   
+    width: 100%;
+}
+.page-main-box{
+    width: 1440px;
+    display: grid;
+    grid-template-columns: 250px 817px 100px;
+    grid-template-rows:46px 1042px 61px;
+    column-gap: 16px;
+    row-gap: 11px;
+    padding: 0 0 0 180px;
+    margin: 20px auto 0;
+}
+.course-nav-box{
+    text-align: left;
+    grid-row-end: span 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width:250px;
+    height: 1099px;
+    padding: 24px 0 0 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+}
+.course-nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items:center ; 
+    justify-content: center; 
+    height: 86px;
+    margin-bottom: 40px; 
+}
+.nav-title{
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 22px;
+
+}
+.nav-list{
+    text-align: left;
+}
+.nav-item{
+    font-size: 14px;
+    float: left;
+    width: 56px;
+    height: 14px;
+    list-style-type: none;
+    margin: 0 6px 10px 0px;
+}
+.nav-item_hover{
+    color: #666666;
+    text-decoration: none;
+}
+/* 课程基本信息 */
+.course-nav-info{
+    text-align: left;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 811px;
+    height: 46px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 3px;
+    padding: 16px 0 0 20px;
+    margin-left: 8px;
+}
+.course-number-time,.course-nav-right{
+    font-size: 12px;
+    color: #666666;
+}
+.course-nav-right{
+    width:248px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+} 
+.course-nav-icon{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.break{
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #999999;
+    margin: 0 16px;
+
+}
+/* 课程列表 */
+.course-box{
+    height:1022px;  
+    display:grid; 
+    grid-template-columns: repeat(3,258px);
+    grid-template-rows: repeat(4,250px);
+    justify-content: center;
+    padding:0;
+    margin-left: 8px;
+    text-align: left;
+    column-gap: 16px;
+    row-gap:14px;
+}
+.course-container{
+    position: relative;
+    display: block;
+}
+.course-img{
+    width: 258px;
+    height:250px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+
+}
+.course-name{
+    position: absolute;
+    top:140px;
+    padding:13px 16px 0;
+    height: 53px;
+}
+.course-info{
+    position: absolute;
+    top:216px;
+    padding:0 14px 17px 16px;
+    height:30px;
+}
+
+.course-level-box{
+    grid-column: 3 / 4;
+    grid-row: 1 / 3; 
+    position: relative;   
+    width: 100px;
+    height: 230px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 2px;
+    padding: 17px 34px 0 18px;
+    margin: 0;
+    text-align: left;
+}
+.course-level-item{
+    font-size: 12px;
+    color: #666666;
+    height:46px;
+    list-style-type: none;
+}
+.main-footer{
+    grid-column: 2 / 3;
+    grid-row: 3 / 4; 
+    padding:29px 0 0 ;
+    font-size: 12px;
+}
+.homepage_hover,.next-page_hover,.previous-page_hover,.last-page_hover{
+    color: #999999;
+    text-decoration: none; 
+    margin: 0 5px 0 0; 
+}
+.homepage,.next-page,.last-page,.previous-page{
+    display: inline-block;
+    background: #FFFFFF;
+    border:none;
+    width:50px;
+    height:32px;
+    line-height: 32px;
+}
+.previous-page{
+    width: 72px;
+    height: 32px;
+    background: #FFFFFF;
+}
+.page-number{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    color: #999999;
+    background: #FFFFFF;
+    border:none;
+    line-height: 32px;
+    margin: 0 5px 0 0;
+}
+.main-footer a:nth-child(3)>.page-number{
+    width: 32px;
+    height: 32px;
+    background: #35B558; 
+    color:#FFFFFF;   
+}
+.page-number:hover{
+    width: 32px;
+    height: 32px;
+    background: #35B558; 
+    color:#FFFFFF;    
+}
+.total-page{
+    margin:0 24px 0 15px ;
+    width: 40px;
+    height: 12px;
+
+}
+.current-page{
+    width: 35px;
+    height: 22px;
+    background: #FFFFFF;
+    border: none;
+    text-align: center;
+    outline-style: none;
+    }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    }
+input[type="number"]{
+    -moz-appearance: textfield;
+    }
+.ensure{
+    width: 32px;
+    height: 22px;
+    background: #FFFFFF;
+    color: #999999;
+    border:none;
+    margin-left:5px;
+}

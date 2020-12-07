@@ -15,20 +15,29 @@
     border-radius: 3px;
     background-color: #35B558;
 }
+.page-header{
+    width: 100%;
+    text-align: center;
+    min-width: 1196px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05); 
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 calc((100% - 1196px)/2);
+}
 .page-main{
     text-align: center; 
     height:1341px ;   
     width: 100%;
-}
-.page-main-box{
-    width: 1440px;
+    min-width: 1196px;
     display: grid;
     grid-template-columns: 250px 817px 100px;
     grid-template-rows:46px 1042px 61px;
     column-gap: 16px;
     row-gap: 11px;
-    padding: 0 0 0 180px;
-    margin: 20px auto 0;
+    padding: 0 calc((100% - 1196px)/2);
+    margin: 20px 0;
 }
 .course-nav-box{
     text-align: left;

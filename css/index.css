@@ -33,18 +33,13 @@ html,body{
 .page-header{
     width: 100%;
     text-align: center;
-    min-width:1268px;
-    padding: 0 65px 0 107px;  
+    min-width:1080px;
     height: 60px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05); 
-}
-.header-box{
     display: flex;
     flex-wrap: nowrap;
-    width: 1440px;
-    padding:0 180px;
-    margin: 0 auto;
+    padding: 0 calc((100% - 1080px)/2);
 }
 .head-box-left{
     text-align: center;
@@ -113,17 +108,14 @@ html,body{
 /* 主体结构 */
 .page-main{
     text-align: center;
-    min-width:1440px;
+    min-width:1080px;
     height: 2363px;
-    padding: 0 65px 0 107px;  
-}
-.main-img-box{
-    height: 357px;
-    padding: 37px 116px 0 72px;
+    padding: 0 calc((100% - 1080px)/2);
 }
 .main-img{
     width:1080px;
     height: 320px;
+    margin: 20px 0 0;
 }
 .title-box{
 display: flex;
@@ -143,7 +135,6 @@ height: 93px;
     grid-template-rows: repeat(2,150px);
     grid-gap:16px 16px;
     justify-content: center;
-    padding: 0 73px;
 }
 .combat-camp-list{
     display: flex;
@@ -172,7 +163,6 @@ height: 93px;
 /* 课程 */
 .course-box{
   height:496px;  
-  padding: 0 113px 0 72px;
   display:grid; 
   grid-template-columns: repeat(4,258px);
   grid-template-rows: repeat(2,240px);
@@ -214,7 +204,6 @@ height: 93px;
 /* 项目 */
 .project-box{
     height:256px;  
-    padding: 0 115px 0 73px;
     display:grid; 
     grid-template-columns: repeat(5,203px);
     grid-template-rows: repeat(2,120px);
@@ -244,7 +233,6 @@ height: 93px;
 /* 实验 */
 .experiment-box{
     height:436px;  
-    padding: 0 113px 0 72px;
     display:grid; 
     grid-template-columns: repeat(5,203px);
     grid-template-rows: repeat(2,210px);
@@ -278,11 +266,11 @@ height: 93px;
     height: 40px;
     background: #333744;   
     display: inline-block;
-    min-width: 1440px;
+    min-width: 1080px;
     height: 40px;
     line-height: 40px; 
     text-align: center;
-  }
-  .footer-info{
+}
+.footer-info{
     color: #FFFFFF;
-  }
+}
